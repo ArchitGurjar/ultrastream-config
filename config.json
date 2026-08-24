@@ -22,7 +22,7 @@
 
   "ui": {
     "announcement_text": "🎉 New HDHub Links are LIVE!",
-    "announcement_color": "#38BDF8",
+    "announcement_color": "#FFFFFF",
     "home_header_title": "UltraStream",
     "show_hero_carousel": true,
     "default_language": "Hindi"
