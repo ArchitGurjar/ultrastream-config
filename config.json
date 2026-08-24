@@ -1,14 +1,20 @@
 {
-  "version": 2.1,
+  "version": 3,
   "addons": {
     "urls": [
       "https://v3-cinemeta.strem.io/manifest.json",
-      "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json",
-      "https://opensubtitles-v3.strem.io/manifest.json",
-      "https://local.strem.io/manifest.json"
+      "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json"
     ],
-    "required": ["https://v3-cinemeta.strem.io/manifest.json"]
+    "required": [
+      "https://v3-cinemeta.strem.io/manifest.json",
+      "https://hdhub.thevolecitor.qzz.io/eyJ0b3Jib3giOiJ1bnNldCIsInF1YWxpdGllcyI6IjIxNjBwLDEwODBwLDcyMHAiLCJzb3J0IjoiZGVzYyJ9/manifest.json"
+    ]
   },
+  "network": {
+    "connect_timeout_seconds": 30,
+    "read_timeout_seconds": 30
+  }
+}
   "features": {
     "enable_downloads": true,
     "enable_cast": true,
@@ -33,7 +39,7 @@
     "default_subtitle_color": "#FFFFFF",
     "default_subtitle_bg": "#80000000",
     "enable_skip_intro": true,
-    "enable_audio_effects": false,
+    "enable_audio_effects": true,
     "enable_volume_boost": true
   },
   "network": {
@@ -43,8 +49,8 @@
     "cache_ttl_hours": 24
   },
   "content": {
-    "max_file_size_gb": 7,
-    "block_4k_links": false,
+    "max_file_size_gb": 5,
+    "block_4k_links": true,
     "parental_default_rating": "PG-13",
     "default_hindi_priority": true
   },
