@@ -1,5 +1,5 @@
 {
-  "version": 6,
+  "version": 4,
   "addons": {
     "urls": [
       "https://v3-cinemeta.strem.io/manifest.json",
@@ -20,7 +20,7 @@
     "force_update": false
   },
   "ui": {
-    "announcement_text": "✅ Config Sync Active!",
+    "announcement_text": "✅ again Config Sync Active!",
     "announcement_color": "#FFFFFF",
     "home_header_title": "UltraStream",
     "show_hero_carousel": true,
