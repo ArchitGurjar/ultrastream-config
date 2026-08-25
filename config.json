@@ -20,7 +20,7 @@
     "force_update": false
   },
   "ui": {
-    "announcement_text": "✅ 4k links Active!",
+    "announcement_text": "✅ 4k links Active,links update!",
     "announcement_color": "#FFFFFF",
     "home_header_title": "UltraStream TV",
     "show_hero_carousel": true,
@@ -50,8 +50,10 @@
     "default_hindi_priority": true
   },
   "links": {
-    "privacy_policy": "https://your-site.com/privacy",
-    "support_email": "support@your-app.com",
-    "update_apk_url": "https://your-site.com/latest.apk"
-  }
+  "privacy_policy": "https://your-site.com/privacy",
+  "support_email": "support@your-app.com",
+  "update_apk_url": "https://your-site.com/latest.apk",
+  "buy_me_a_coffee": "https://www.buymeacoffee.com/aapka-naam",
+  "patreon": "https://www.patreon.com/aapka-naam"
+}
 }
