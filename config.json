@@ -45,7 +45,7 @@
   },
   "content": {
     "max_file_size_gb": 8,
-    "block_4k_links": true,
+    "block_4k_links": false,
     "parental_default_rating": "PG-13",
     "default_hindi_priority": true
   },
