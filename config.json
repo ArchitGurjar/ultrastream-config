@@ -20,10 +20,10 @@
     "force_update": false
   },
   "ui": {
-    "announcement_text": "✅ again Config Sync Active!",
+    "announcement_text": "✅ Ultra stream TV",
     "announcement_color": "#FFFFFF",
-    "home_header_title": "UltraStream",
-    "show_hero_carousel": true,
+    "home_header_title": "UltraStream TV",
+    "show_hero_carousel": false,
     "default_language": "Hindi"
   },
   "player": {
