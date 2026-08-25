@@ -1,5 +1,5 @@
 {
-  "version": 4.0.1,
+  "version": 4,
   "addons": {
     "urls": [
       "https://v3-cinemeta.strem.io/manifest.json",
@@ -20,7 +20,7 @@
     "force_update": false
   },
   "ui": {
-    "announcement_text": "✅ 4k links unlocked",
+    "announcement_text": "✅ 4k links unlocked, hero section unlocked",
     "announcement_color": "#FFFFFF",
     "home_header_title": "UltraStream TV",
     "show_hero_carousel": false,
